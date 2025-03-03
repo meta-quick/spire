@@ -19,7 +19,7 @@ type CLI struct {
 }
 
 func (cc *CLI) Run(ctx context.Context, args []string) int {
-	c := cli.NewCLI("spire-agent", version.Version())
+	c := cli.NewCLI("kirin-agent", version.Version())
 	c.Args = args
 	c.Commands = map[string]cli.CommandFactory{
 		"api fetch": func() (cli.Command, error) {
