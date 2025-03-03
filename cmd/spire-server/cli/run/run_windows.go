@@ -12,7 +12,7 @@ import (
 )
 
 func (c *serverConfig) addOSFlags(flags *flag.FlagSet) {
-	flags.StringVar(&c.Experimental.NamedPipeName, "namedPipeName", "", "Pipe name of the SPIRE Server API named pipe")
+	flags.StringVar(&c.Experimental.NamedPipeName, "namedPipeName", "", "Pipe name of the Kirin Server API named pipe")
 }
 
 func (c *serverConfig) getAddr() (net.Addr, error) {

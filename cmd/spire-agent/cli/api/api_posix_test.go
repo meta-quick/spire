@@ -11,7 +11,7 @@ const (
   -output value
     	Desired output format (pretty, json); default: pretty.
   -socketPath string
-    	Path to the SPIRE Agent API Unix domain socket (default "/tmp/spire-agent/public/api.sock")
+    	Path to the SPIRE Agent API Unix domain socket (default "/tmp/kirin-agent/public/api.sock")
   -spiffeID string
     	SPIFFE ID subject (optional)
   -timeout value
@@ -23,7 +23,7 @@ const (
   -silent
     	Suppress stdout
   -socketPath string
-    	Path to the SPIRE Agent API Unix domain socket (default "/tmp/spire-agent/public/api.sock")
+    	Path to the SPIRE Agent API Unix domain socket (default "/tmp/kirin-agent/public/api.sock")
   -timeout value
     	Time to wait for a response (default 5s)
   -write string
@@ -35,7 +35,7 @@ const (
   -output value
     	Desired output format (pretty, json); default: pretty.
   -socketPath string
-    	Path to the SPIRE Agent API Unix domain socket (default "/tmp/spire-agent/public/api.sock")
+    	Path to the SPIRE Agent API Unix domain socket (default "/tmp/kirin-agent/public/api.sock")
   -svid string
     	JWT SVID
   -timeout value

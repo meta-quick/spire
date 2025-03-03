@@ -17,7 +17,7 @@ type healthCheckCommandOS struct {
 }
 
 func (c *healthCheckCommandOS) addOSFlags(flags *flag.FlagSet) {
-	flags.StringVar(&c.socketPath, "socketPath", common.DefaultSocketPath, "Path to the SPIRE Agent API socket")
+	flags.StringVar(&c.socketPath, "socketPath", common.DefaultSocketPath, "Path to the Kirin Agent API socket")
 }
 
 func (c *healthCheckCommandOS) getAddr() (net.Addr, error) {

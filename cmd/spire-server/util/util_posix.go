@@ -14,7 +14,7 @@ type adapterOS struct {
 }
 
 func (a *Adapter) addOSFlags(flags *flag.FlagSet) {
-	flags.StringVar(&a.socketPath, "socketPath", DefaultSocketPath, "Path to the SPIRE Server API socket")
+	flags.StringVar(&a.socketPath, "socketPath", DefaultSocketPath, "Path to the Kirin Server API socket")
 }
 
 func (a *Adapter) getGRPCAddr() string {

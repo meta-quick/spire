@@ -14,7 +14,7 @@ type ConfigOS struct {
 }
 
 func (c *ConfigOS) AddOSFlags(flags *flag.FlagSet) {
-	flags.StringVar(&c.socketPath, "socketPath", DefaultSocketPath, "Path to the SPIRE Agent API Unix domain socket")
+	flags.StringVar(&c.socketPath, "socketPath", DefaultSocketPath, "Path to the Kirin Agent API Unix domain socket")
 }
 
 func (c *ConfigOS) GetAddr() (net.Addr, error) {

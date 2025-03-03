@@ -11,11 +11,11 @@ import (
 )
 
 const (
-	defaultSocketPath = "/tmp/spire-server/private/api.sock"
+	defaultSocketPath = "/tmp/kirin-server/private/api.sock"
 )
 
 func (c *serverConfig) addOSFlags(flags *flag.FlagSet) {
-	flags.StringVar(&c.SocketPath, "socketPath", "", "Path to bind the SPIRE Server API socket to")
+	flags.StringVar(&c.SocketPath, "socketPath", "", "Path to bind the Kirin Server API socket to")
 }
 
 func (c *serverConfig) getAddr() (net.Addr, error) {

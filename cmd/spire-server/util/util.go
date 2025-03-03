@@ -26,7 +26,7 @@ import (
 )
 
 const (
-	DefaultSocketPath    = "/tmp/spire-server/private/api.sock"
+	DefaultSocketPath    = "/tmp/kirin-server/private/api.sock"
 	DefaultNamedPipeName = "\\spire-server\\private\\api"
 	FormatPEM            = "pem"
 	FormatSPIFFE         = "spiffe"
